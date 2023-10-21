@@ -1,4 +1,5 @@
-import Jatekter from "./Jatekter.js";
+import TTTcontroller from "./controller/TTTcontroller.js";
+
 $(function () {
-  new Jatekter($(".jatekter"));
+  new TTTcontroller();
 });
